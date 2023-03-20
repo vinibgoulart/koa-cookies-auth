@@ -1,0 +1,20 @@
+{
+  "name": "koa-cookies-session",
+  "version": "1.0.0",
+  "description": "koa cookies session",
+  "private": true,
+  "repository": "https://github.com/vinibgoulart/koa-cookies-auth",
+  "author": "vinibgoulart <https://github.com/vinibgoulart>",
+  "workspaces": [
+    "apps/server",
+    "apps/app"
+  ],
+  "scripts": {
+    "server": "yarn workspace @koa-cookies-auth/server dev",
+    "app": "yarn workspace @koa-cookies-auth/app dev"
+  },
+  "dependencies": {
+    "esbuild": "^0.17.12",
+    "typescript": "^5.0.2"
+  }
+}
