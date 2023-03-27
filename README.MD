@@ -1,5 +1,5 @@
 <h1 align="center">
-  Koa cookies session
+  KoaJS and NextJS session management
 </h1>
 <h4 align="center">A session manager by httpOnly cookies using <a href="https://koajs.com" target="_blank">KoaJS</a> and <a href="https://nextjs.org/" target="_blank">NextJS</a>.</h4>
 
