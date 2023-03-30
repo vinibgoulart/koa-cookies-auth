@@ -1,9 +1,9 @@
 {
-  "name": "koa-cookies-session",
+  "name": "koa-next-cookies-session",
   "version": "1.0.0",
   "description": "koa cookies session",
   "private": true,
-  "repository": "https://github.com/vinibgoulart/koa-cookies-auth",
+  "repository": "https://github.com/vinibgoulart/koa-next-cookies-session",
   "author": "vinibgoulart <https://github.com/vinibgoulart>",
   "workspaces": [
     "apps/server",
