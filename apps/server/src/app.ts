@@ -25,8 +25,9 @@ router.all('/', getAuth)
 
 router.get('/', (ctx, next) => {
   if (ctx.session === undefined) {
+    ctx.status = 401
     ctx.body = {
-      message: 'Session set successfully',
+      message: 'Unauthorized',
       data: null
     }
 
